@@ -2,69 +2,118 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <title>Loanify – Trusted Loans</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Loan Website</title>
 
-  <!-- CSS LINK -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #2b0040, #4b0070);
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      opacity: 0.9;
+      margin-bottom: 30px;
+    }
+
+    .hero-text button {
+      background: #9b5cff;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 25px;
+      cursor: pointer;
+      color: #fff;
+    }
+
+    .hero-image img {
+      width: 500px;
+      max-width: 100%;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+      .hero-image {
+        margin-top: 40px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
+  <header>
     <h1>Loanify</h1>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Loans</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Loans</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-text">
       <h2>Trusted Loans, Made Simple</h2>
       <p>
-        Get personal and business loans with a clear, transparent and secure
-        process you can rely on.
+        Get personal and business loans with a clear, transparent and
+        secure process you can rely on.
       </p>
-      <a href="#" class="btn">Apply for Loan</a>
+      <button>Apply for Loan</button>
     </div>
 
     <div class="hero-image">
-      <!-- IMAGE PATH CHECK -->
-      <img src="images/hero.png" alt="Loan Illustration" />
-    </div>
-  </section>
-
-  <!-- SERVICES SECTION -->
-  <section class="services-preview">
-    <h2>Our Loan Services</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Personal Loan</h3>
-        <p>
-          Quick and easy personal loans with minimal documentation and fast
-          approval.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Business Loan</h3>
-        <p>
-          Flexible business loans to help you grow, expand and manage cash
-          flow.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Instant Approval</h3>
-        <p>
-          Digital process with instant eligibility check and transparent terms.
-        </p>
-      </div>
+      <!-- 🔥 YAHI MAIN FIX HAI -->
+      <img src="images/hero-new.png" alt="Loan Illustration">
     </div>
   </section>
 
