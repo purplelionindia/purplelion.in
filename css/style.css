@@ -1,40 +1,57 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f0ff;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f7f2ff;
   color: #2d0b59;
 }
 
-header {
-  background: linear-gradient(135deg, #6a0dad, #9b4dff);
-  color: white;
-  padding: 20px;
-  text-align: center;
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #f2e9ff;
 }
 
-nav a {
-  color: white;
-  margin: 0 15px;
+.navbar h1 {
+  color: #6a00ff;
+  font-size: 26px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar ul li a {
   text-decoration: none;
-  font-weight: bold;
+  color: #2d0b59;
+  font-weight: 600;
 }
 
-section {
-  padding: 40px;
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 60px;
 }
 
-.btn {
-  background: #6a0dad;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 6px;
-  text-decoration: none;
+.hero-text {
+  max-width: 50%;
 }
 
-footer {
-  background: #2d0b59;
-  color: white;
-  text-align: center;
-  padding: 15px;
+.hero-text h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #3a0ca3;
 }
 
+.he
