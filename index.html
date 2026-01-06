@@ -5,83 +5,13 @@
   <title>Purple Lion – Loans & Financing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #4b1fa6, #7b2ff7);
-      color: #ffffff;
-    }
-
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 60px 8%;
-      box-sizing: border-box;
-    }
-
-    .hero-text {
-      max-width: 520px;
-    }
-
-    .hero-text h1 {
-      font-size: 42px;
-      line-height: 1.2;
-      margin-bottom: 20px;
-    }
-
-    .hero-text p {
-      font-size: 18px;
-      opacity: 0.9;
-      margin-bottom: 30px;
-    }
-
-    .hero-text button {
-      background: #ffffff;
-      color: #4b1fa6;
-      border: none;
-      padding: 14px 28px;
-      font-size: 16px;
-      font-weight: bold;
-      border-radius: 30px;
-      cursor: pointer;
-    }
-
-    .hero-text button:hover {
-      opacity: 0.9;
-    }
-
-    .hero-image img {
-      max-width: 520px;
-      width: 100%;
-      height: auto;
-
-      /* TEMPORARY FIX FOR BLACK BACKGROUND */
-      mix-blend-mode: screen;
-      filter: brightness(1.1) contrast(1.05);
-
-      background: transparent;
-      border: none;
-      box-shadow: none;
-    }
-
-    @media (max-width: 900px) {
-      .hero {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .hero-image {
-        margin-top: 40px;
-      }
-    }
-  </style>
+  <!-- CSS file link -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-text">
       <h1>Trusted Loans for You & Your Business</h1>
@@ -92,9 +22,36 @@
     </div>
 
     <div class="hero-image">
-      <!-- image ka naam yahan exact likhna -->
-      <img src="hero.png" alt="Loan & Finance Illustration">
+      <!-- image ka exact naam yahan likhna -->
+      <img src="hero.png" alt="Loan Illustration">
     </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services">
+    <h2>Our Loan Services</h2>
+
+    <div class="service-box">
+      <div>
+        <h3>Personal Loan</h3>
+        <p>Quick approval with minimal documentation.</p>
+      </div>
+
+      <div>
+        <h3>Business Loan</h3>
+        <p>Flexible funding to grow your business.</p>
+      </div>
+
+      <div>
+        <h3>Working Capital</h3>
+        <p>Smooth cash flow for daily operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST SECTION -->
+  <section class="trust">
+    <p>✔ RBI-Partnered Lenders &nbsp; ✔ Fast Disbursal &nbsp; ✔ 100% Secure Process</p>
   </section>
 
 </body>
